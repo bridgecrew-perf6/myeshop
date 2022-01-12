@@ -432,7 +432,7 @@ var useravatar=user && user.name
         <Divider />
   
      
-        <MenuItem>
+        <MenuItem onClick={logout}>
           <ListItemIcon>
             <Logout fontSize="small" />
           </ListItemIcon>
