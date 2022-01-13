@@ -40,7 +40,7 @@ var productlist=ssproduct.map((pl)=>{
 											
 									</div>
 									<div class="item-info-product ">
-										<h4><Link href={`/Product-details/${pl._id}`}>{pl.productname}</Link></h4>
+										<h4><Link to={`/Product-details/${pl._id}`}>{pl.productname}</Link></h4>
 										<div class="info-product-price">
 										<i class="fas fa-rupee-sign"></i>&nbsp;<span class="item_price">{pl.productfinalprice}</span>
 											<del><i class="fas fa-rupee-sign"></i>&nbsp;{pl.productprice}</del>
