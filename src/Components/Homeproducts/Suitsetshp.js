@@ -33,7 +33,7 @@ var productlist=ssproduct.map((pl)=>{
 										{/* <img src="images/m1.jpg" alt="" class="pro-image-back"/> */}
 											<div class="men-cart-pro">
 												<div class="inner-men-cart-pro">
-													<a href="single.html" class="link-product-add-cart">Quick View</a>
+													<Link to={`/Product-details/${pl._id}`} class="link-product-add-cart">Quick View</Link>
 												</div>
 											</div>
 											<span class="product-new-top">New</span>
